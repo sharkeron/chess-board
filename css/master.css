@@ -1,9 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.chessboard{
+.chessboard {
     position: relative;
     width: 640px;
     height: 640px;
@@ -11,352 +11,351 @@
     border: 25px solid #4F4C3B;
 }
 
-.field{
+.field {
     position: absolute;
     width: 80px;
     height: 80px;
 }
 
-.red{
+.red {
     background-color: red;
 }
 
-.white{
+.white {
     background-color: white;
 }
 
-.whitechecker{
+.checker{
     margin: 8px auto;
     width: 80%;
     height: 80%;
     border-radius: 50%;
+}
+
+.whitechecker {
     background-color: #fff;
 }
 
-.blackchecker{
-    margin: 8px auto;
-    width: 80%;
-    height: 80%;
-    border-radius: 50%;
+.blackchecker {
     background-color: #000;
 }
 
-.a8{
+.a8 {
     top: 0;
     left: 0;
 }
 
-.b8{
+.b8 {
     top: 0;
     left: 80px;
 }
 
-.c8{
+.c8 {
     top: 0;
     left: 160px;
 }
 
-.d8{
+.d8 {
     top: 0;
     left: 240px;
 }
 
-.e8{
+.e8 {
     top: 0;
     left: 320px;
 }
 
-.f8{
+.f8 {
     top: 0;
     left: 400px;
 }
 
-.g8{
+.g8 {
     top: 0;
     left: 480px;
 }
 
-.h8{
+.h8 {
     top: 0;
     left: 560px;
 }
 
-.a7{
+.a7 {
     top: 80px;
     left: 0;
 }
 
-.b7{
+.b7 {
     top: 80px;
     left: 80px;
 }
 
-.c7{
+.c7 {
     top: 80px;
     left: 160px;
 }
 
-.d7{
+.d7 {
     top: 80px;
     left: 240px;
 }
 
-.e7{
+.e7 {
     top: 80px;
     left: 320px;
 }
 
-.f7{
+.f7 {
     top: 80px;
     left: 400px;
 }
 
-.g7{
+.g7 {
     top: 80px;
     left: 480px;
 }
 
-.h7{
+.h7 {
     top: 80px;
     left: 560px;
 }
 
-.a6{
+.a6 {
     top: 160px;
     left: 0;
 }
 
-.b6{
+.b6 {
     top: 160px;
     left: 80px;
 }
 
-.c6{
+.c6 {
     top: 160px;
     left: 160px;
 }
 
-.d6{
+.d6 {
     top: 160px;
     left: 240px;
 }
 
-.e6{
+.e6 {
     top: 160px;
     left: 320px;
 }
 
-.f6{
+.f6 {
     top: 160px;
     left: 400px;
 }
 
-.g6{
+.g6 {
     top: 160px;
     left: 480px;
 }
 
-.h6{
+.h6 {
     top: 160px;
     left: 560px;
 }
 
-.a5{
+.a5 {
     top: 240px;
     left: 0;
 }
 
-.b5{
+.b5 {
     top: 240px;
     left: 80px;
 }
 
-.c5{
+.c5 {
     top: 240px;
     left: 160px;
 }
 
-.d5{
+.d5 {
     top: 240px;
     left: 240px;
 }
 
-.e5{
+.e5 {
     top: 240px;
     left: 320px;
 }
 
-.f5{
+.f5 {
     top: 240px;
     left: 400px;
 }
 
-.g5{
+.g5 {
     top: 240px;
     left: 480px;
 }
 
-.h5{
+.h5 {
     top: 240px;
     left: 560px;
 }
 
-.a4{
+.a4 {
     top: 320px;
     left: 0;
 }
 
-.b4{
+.b4 {
     top: 320px;
     left: 80px;
 }
 
-.c4{
+.c4 {
     top: 320px;
     left: 160px;
 }
 
-.d4{
+.d4 {
     top: 320px;
     left: 240px;
 }
 
-.e4{
+.e4 {
     top: 320px;
     left: 320px;
 }
 
-.f4{
+.f4 {
     top: 320px;
     left: 400px;
 }
 
-.g4{
+.g4 {
     top: 320px;
     left: 480px;
 }
 
-.h4{
+.h4 {
     top: 320px;
     left: 560px;
 }
 
-.a3{
+.a3 {
     top: 400px;
     left: 0;
 }
 
-.b3{
+.b3 {
     top: 400px;
     left: 80px;
 }
 
-.c3{
+.c3 {
     top: 400px;
     left: 160px;
 }
 
-.d3{
+.d3 {
     top: 400px;
     left: 240px;
 }
 
-.e3{
+.e3 {
     top: 400px;
     left: 320px;
 }
 
-.f3{
+.f3 {
     top: 400px;
     left: 400px;
 }
 
-.g3{
+.g3 {
     top: 400px;
     left: 480px;
 }
 
-.h3{
+.h3 {
     top: 400px;
     left: 560px;
 }
 
-.a2{
+.a2 {
     top: 480px;
     left: 0;
 }
 
-.b2{
+.b2 {
     top: 480px;
     left: 80px;
 }
 
-.c2{
+.c2 {
     top: 480px;
     left: 160px;
 }
 
-.d2{
+.d2 {
     top: 480px;
     left: 240px;
 }
 
-.e2{
+.e2 {
     top: 480px;
     left: 320px;
 }
 
-.f2{
+.f2 {
     top: 480px;
     left: 400px;
 }
 
-.g2{
+.g2 {
     top: 480px;
     left: 480px;
 }
 
-.h2{
+.h2 {
     top: 480px;
     left: 560px;
 }
 
-.a1{
+.a1 {
     top: 560px;
     left: 0;
 }
 
-.b1{
+.b1 {
     top: 560px;
     left: 80px;
 }
 
-.c1{
+.c1 {
     top: 560px;
     left: 160px;
 }
 
-.d1{
+.d1 {
     top: 560px;
     left: 240px;
 }
 
-.e1{
+.e1 {
     top: 560px;
     left: 320px;
 }
 
-.f1{
+.f1 {
     top: 560px;
     left: 400px;
 }
 
-.g1{
+.g1 {
     top: 560px;
     left: 480px;
 }
 
-.h1{
+.h1 {
     top: 560px;
     left: 560px;
 }
